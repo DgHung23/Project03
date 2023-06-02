@@ -16,6 +16,11 @@ body {
 a {
     text-decoration: none;
 }
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
 .container {
     width: 1170px;
     max-width: calc(100% - 48px);
@@ -387,7 +392,85 @@ height: 370px;
 filter: none;
 }
 
-
 .feature__btn{
     margin-top: 38px;
+}
+
+/* ===================members==================== */
+.members{
+    margin-top: 121px;
+}
+
+.members-top{
+    width: 470px;
+    align-items: center;
+    display: flex;
+    gap: 38px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.members__title{
+    margin: 0 auto;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #10375C;
+}
+
+.members__desc{
+    margin: 0 auto;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #575F66;
+}
+
+.members__lish{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 30px;
+}
+
+.members__image{
+    background: #EAF6FF;
+    border-radius: 6px;
+}
+
+.members__img{
+    margin-top: 28px;
+    margin-bottom: -2px;
+    width: 270px;
+    height: 318px;
+    object-fit: cover;
+}
+
+.members__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.members-button{
+    margin-top: 38px;
+    display: flex;
+    gap: 18px;
+    justify-content: center;
+}
+
+.members-button__img{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid #575F66;
+}
+
+.members-button__img:hover {
+    border: none;
+background: #2E80CE;
+}
+
+.members-button__img:hover path {
+    stroke:white;
 }
