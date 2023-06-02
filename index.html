@@ -6,11 +6,67 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>project03</title>
 
+        <!-- Embed fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
         <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
-        <link rel="stylesheet" href="./assets/CSS/reset.css">
-        <link rel="stylesheet" href="./assets/CSS/styles.css">
+        <link rel="stylesheet" href="./assets/CSS/reset.css" />
+        <link rel="stylesheet" href="./assets/CSS/styles.css" />
     </head>
     <body>
-        <p>test</p>
+        <header class="header">
+            <div class="container">
+                <div class="header-top">
+                    <!-- Logo -->
+                    <a href="/">
+                        <div class="logo">
+                            <span class="logo__circle"></span>
+                            <span class="logo__text">
+                                <span class="logo__brand">shine</span>
+                                <span class="logo__brand logo__brand--small">
+                                    smile
+                                </span>
+                            </span>
+                        </div>
+                    </a>
+
+                    <!-- Navbar -->
+                    <nav class="navbar">
+                        <ul class="navbar__list">
+                            <li class="navbar__item">
+                                <a
+                                    href="#!"
+                                    class="navbar__link navbar__link--active"
+                                    >Home</a
+                                >
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Services</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">About</a>
+                            </li>
+                            <li class="navbar__item">
+                                <a href="#!" class="navbar__link">Doctors</a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Action -->
+                    <div class="header-action">
+                        <a href="#!" class="header-action__login">Log In</a>
+                        <button href="#!" class="btn header-action__signup">
+                            Sign Up
+                        </button>
+                    </div>
+                </div>
+                
+            </div>
+        </header>
     </body>
 </html>
