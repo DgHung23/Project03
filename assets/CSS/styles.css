@@ -631,3 +631,154 @@ button {
 .news__info {
     padding: 18px 22px 21px 22px;
 }
+/* ===================appointment================== */
+
+.appointment{
+    margin: 170px 0;
+}
+
+.appointment__content{
+    padding: 100px 0;
+    background: #F7FBFF;
+}
+
+.appointment__heading{
+    margin: 0 auto;
+    width: 813px;
+}
+
+.appointment__line{
+
+    margin: 18px auto;
+    background: #2E80CE;
+    width: 136px;
+    height: 2px;
+}
+
+.appointment__desc{
+    width: 617px;
+    font-weight: 300;
+    font-size: 1.6rem;
+    line-height: 1.75;
+    color: #575F66;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+.appointment__btn{
+display: block;
+margin-top: 38px;
+    margin: 38px auto 0;
+
+font-size: 1.8rem;
+
+}
+
+/* ===================footer================ */
+.footer {
+    background: #10375C;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer__content{
+    padding: 100px 0 42px;
+}
+
+.footer__lish{
+    display: grid;
+    grid-template-columns: 336px 1fr 1fr 332px;
+    column-gap: 78px;
+}
+
+.footer__lish::after{
+    margin-top: 28px;
+    display: block;
+    content: "";
+    width: 1170px;
+height: 1px;
+background: #406181;
+}
+
+.footer__title:not(:nth-child(1)){
+    margin-top: 28px;
+}
+
+.footer__title{
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: #FFFFFF;
+}
+
+.footer__desc{
+    line-height: 1.86;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #A9B3BB;
+}
+
+.footer__desc--extra-space{
+    margin-top: 28px;
+}
+
+.footer__icon-media{
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.footer__icon-bg{
+    display: inline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 32px;
+height: 32px;
+border-radius: 50%;
+background: #FFFFFF;
+}
+
+.footer__icon-bg:first-child{
+    background: #2E80CE;
+}
+
+.footer__subscribe{
+    max-width: 273px;
+}
+
+.footer__form{
+    margin-top: 10px;
+    display: flex;
+    gap: 12px;
+}
+
+.footer__input{
+    border: 1px solid #406181;
+border-radius: 4px;
+max-width: 212px;
+height: 46px;
+background-color: transparent;
+}
+
+.footer__btn {
+    display: inline-block;
+    border-radius: 4px;
+    width: 108px;
+    height: 46px;
+    background: #2E80CE;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    color: #FFFFFF;
+}
+
+.footer__copyright{
+    margin-top: 28px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.86;
+    text-align: center;
+    color: #AAB3BA;
+
+}
