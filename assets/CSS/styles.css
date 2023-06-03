@@ -260,6 +260,10 @@ button {
     z-index: 1;
 }
 
+.services__item {
+    transition: 0.35s;
+}
+
 .services__icon {
     display: flex;
     justify-content: center;
@@ -270,13 +274,14 @@ button {
     background: #eff6fd;
     border-radius: 30px;
     box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.05);
+    transition: 0.7s;
 }
 
-.services__link:hover .services__icon {
+.services__item:hover .services__icon {
     background: #2e80ce;
 }
 
-.services__link:hover .services__icon .tooth {
+.services__item:hover .services__icon .tooth {
     fill: #ffffff;
 }
 
@@ -434,7 +439,7 @@ button {
     column-gap: 30px;
 }
 
-.members__item:hover .members__img{
+.members__item:hover .members__img {
     transform: scale(1.1);
 }
 
@@ -458,14 +463,14 @@ button {
     flex-direction: column;
 }
 
-.members-button {
+.control-button {
     margin-top: 38px;
     display: flex;
     gap: 18px;
     justify-content: center;
 }
 
-.members-button__img {
+.control-button__img {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -474,18 +479,17 @@ button {
     border-radius: 50%;
     border: 1px solid #575f66;
     outline: none;
-    transition: .25s;
+    transition: 0.25s;
 }
 
-.members-button__img:hover {
+.control-button__img:hover {
     border: none;
     background: #2e80ce;
 }
 
-.members-button__img:hover path {
+.control-button__img:hover path {
     stroke: white;
 }
-
 
 /* =================install================= */
 .install {
@@ -493,49 +497,137 @@ button {
 }
 
 .install__content {
-    background: #2E80CE;
-border-radius: 4px;
-padding: 0 70px;
-display: flex; 
-gap: 160px;
-align-items: center;
+    background: #2e80ce;
+    border-radius: 4px;
+    padding: 0 70px;
+    display: flex;
+    gap: 160px;
+    align-items: center;
 }
 
 .install__mobile-app {
     width: 284px;
-height: 522px;
-object-fit: cover;
-margin-top: -95px;
-display: block;
+    height: 522px;
+    object-fit: cover;
+    margin-top: -95px;
+    display: block;
 }
 
 .install__info {
     width: 586px;
 }
 
-.install__btn{
+.install__btn {
     padding: none;
 }
 
-.install__heading{
+.install__heading {
     max-width: 489px;
     font-weight: 600;
     font-size: 5rem;
     line-height: 1.2;
     letter-spacing: -0.02em;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
-.install__desc{
+.install__desc {
     margin-top: 18px;
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 1.67;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
-.install__row{
+.install__row {
     margin-top: 38px;
     display: flex;
     gap: 13px;
+}
+
+/* ===================news====================== */
+.news {
+    margin-top: 170px;
+}
+
+.news__btn {
+    justify-content: flex-start;
+    margin-top: 28px;
+}
+.news__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.news__inter {
+    width: 40%;
+}
+
+.news__cta {
+    display: inline-block;
+    padding-top: 28px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 1.56;
+    text-decoration-line: underline;
+    color: #10375c;
+}
+
+.news__thumb {
+    margin-left: -0.5px;
+    width: 269px;
+    height: 172px;
+    object-fit: cover;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.news__lish {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+}
+
+.news__item {
+    width: 270px;
+    border: 1px solid #e8ebee;
+    border-radius: 12px;
+    transition: 0.25s;
+}
+
+.news__item:hover {
+    box-shadow: 0px 18px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 12px;
+}
+
+.news__item:hover .news__link {
+    color: #2e80ce;
+}
+
+.news__title {
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: #10375c;
+}
+
+.news__desc {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: #575f66;
+}
+
+.news__link {
+    display: inline-block;
+    margin-top: 12px;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: #10375c;
+}
+
+.news__info {
+    padding: 18px 22px 21px 22px;
 }
