@@ -60,7 +60,7 @@ button {
 
 .section__desc {
     width: 470px;
-    margin-top: 18px;
+    padding-top: 18px;
     font-weight: 300;
     font-size: 1.8rem;
     line-height: 1.67;
@@ -484,4 +484,58 @@ button {
 
 .members-button__img:hover path {
     stroke: white;
+}
+
+
+/* =================install================= */
+.install {
+    margin-top: 265px;
+}
+
+.install__content {
+    background: #2E80CE;
+border-radius: 4px;
+padding: 0 70px;
+display: flex; 
+gap: 160px;
+align-items: center;
+}
+
+.install__mobile-app {
+    width: 284px;
+height: 522px;
+object-fit: cover;
+margin-top: -95px;
+display: block;
+}
+
+.install__info {
+    width: 586px;
+}
+
+.install__btn{
+    padding: none;
+}
+
+.install__heading{
+    max-width: 489px;
+    font-weight: 600;
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.install__desc{
+    margin-top: 18px;
+    font-weight: 300;
+    font-size: 1.8rem;
+    line-height: 1.67;
+    color: #FFFFFF;
+}
+
+.install__row{
+    margin-top: 38px;
+    display: flex;
+    gap: 13px;
 }
